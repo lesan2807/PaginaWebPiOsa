@@ -1,0 +1,13 @@
+.logo-img {
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nav a{
+  font-size: x-large;
+}
+
+.nav li{
+  padding-right: 8em;
+}
