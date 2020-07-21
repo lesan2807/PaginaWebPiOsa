@@ -1,0 +1,10 @@
+.header {
+  background-color: #00B2EB;
+}
+
+.header-img {
+  height: 62px;
+  max-width: 90%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
