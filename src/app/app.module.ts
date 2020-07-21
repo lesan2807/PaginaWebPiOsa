@@ -11,6 +11,7 @@ import { CalendarioComponent } from './Noticias/calendario/calendario.component'
 import { AgendaComponent } from './Noticias/agenda/agenda.component';
 import { NoticiasComponent } from './Noticias/noticias/noticias.component';
 import { IniciativasComponent } from './Iniciativas/iniciativas/iniciativas.component';
+import { NavbarComponent } from './General/navbar/navbar.component';
 
 
 
@@ -24,7 +25,9 @@ import { IniciativasComponent } from './Iniciativas/iniciativas/iniciativas.comp
     AgendaComponent,
     MapaComponent,
     CalendarioComponent,
-    IniciativasComponent
+    IniciativasComponent,
+    NavbarComponent,
+
   ],
   imports: [
     BrowserModule,
