@@ -1,4 +1,4 @@
-export class Noticias{
+export class Noticia{
    public titulo: string;
    public descripcion: string;
    public imagenPath: string;
