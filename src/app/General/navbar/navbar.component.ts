@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
@@ -7,9 +6,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
+  public isCollapsed = true; 
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  toggleMenu() {
+    this.isCollapsed = !this.isCollapsed;
   }
 
 }
