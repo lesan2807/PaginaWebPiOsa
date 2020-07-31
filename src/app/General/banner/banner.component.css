@@ -3,12 +3,11 @@
 }
 
 .header-img {
-  float: left;
+    float: left;
     position: relative;
-    margin: 14px auto;
+    margin: 20px auto;
     width: 72%;
     height: auto;
-    margin-left: -16%;
 }
 
 img{
@@ -18,10 +17,20 @@ img{
 
  .right a{
   color: #FFFFFF;
-  margin: 25.6px auto;
+  margin: 35px auto;
   position: absolute;
   top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+#register{
+  display: flex;
+  left: auto;
+}
+
+#login{
+  display: flex;
+  right: auto;
 }
