@@ -14,6 +14,7 @@ import { IniciativasComponent } from './Iniciativas/iniciativas/iniciativas.comp
 import { NavbarComponent } from './General/navbar/navbar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TituloComponent } from './General/titulo/titulo.component';
+import { AcercaDeInicioComponent } from './General/acerca-de-inicio/acerca-de-inicio.component';
 
 
 
@@ -30,6 +31,7 @@ import { TituloComponent } from './General/titulo/titulo.component';
     IniciativasComponent,
     NavbarComponent,
     TituloComponent,
+    AcercaDeInicioComponent,
 
   ],
   imports: [
