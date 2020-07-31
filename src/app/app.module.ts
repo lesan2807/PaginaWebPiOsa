@@ -13,6 +13,7 @@ import { NoticiasComponent } from './Noticias/noticias/noticias.component';
 import { IniciativasComponent } from './Iniciativas/iniciativas/iniciativas.component';
 import { NavbarComponent } from './General/navbar/navbar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { TituloComponent } from './General/titulo/titulo.component';
 
 
 
@@ -28,6 +29,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     CalendarioComponent,
     IniciativasComponent,
     NavbarComponent,
+    TituloComponent,
 
   ],
   imports: [
