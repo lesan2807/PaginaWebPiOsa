@@ -3,8 +3,15 @@
 }
 
 .header-img {
-  height: 62px;
-  max-width: 90%;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+    width: 37%;
+    height: auto;
+    margin-left: -16%;
+}
+
+img{
+  width: 100%;
+  height: auto;
 }
