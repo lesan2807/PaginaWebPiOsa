@@ -15,6 +15,7 @@ import { NavbarComponent } from './General/navbar/navbar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TituloComponent } from './General/titulo/titulo.component';
 import { AcercaDeInicioComponent } from './General/acerca-de-inicio/acerca-de-inicio.component';
+import { NoticiasSliderComponent } from './Noticias/noticias-slider/noticias-slider.component';
 
 
 
@@ -32,6 +33,7 @@ import { AcercaDeInicioComponent } from './General/acerca-de-inicio/acerca-de-in
     NavbarComponent,
     TituloComponent,
     AcercaDeInicioComponent,
+    NoticiasSliderComponent,
 
   ],
   imports: [
