@@ -12,6 +12,7 @@ import { AgendaComponent } from './Noticias/agenda/agenda.component';
 import { NoticiasComponent } from './Noticias/noticias/noticias.component';
 import { IniciativasComponent } from './Iniciativas/iniciativas/iniciativas.component';
 import { NavbarComponent } from './General/navbar/navbar.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 
@@ -31,7 +32,8 @@ import { NavbarComponent } from './General/navbar/navbar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
