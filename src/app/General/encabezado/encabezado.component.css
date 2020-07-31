@@ -5,8 +5,8 @@
 .header-img {
   float: left;
     position: relative;
-    margin: 10px 15px 15px 10px;
-    width: 37%;
+    margin: 14px auto;
+    width: 72%;
     height: auto;
     margin-left: -16%;
 }
@@ -14,4 +14,14 @@
 img{
   width: 100%;
   height: auto;
+}
+
+ .right a{
+  color: #FFFFFF;
+  margin: 25.6px auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
