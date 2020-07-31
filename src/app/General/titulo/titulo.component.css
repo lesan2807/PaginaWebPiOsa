@@ -1,0 +1,14 @@
+section {
+    background-image: url(../../../assets/img/bg1.jpg), url(../../../assets/img/img5.jpg);
+    background-repeat: no-repeat, repeat;
+    padding: 110px;
+    height: auto;
+    width: auto;
+    background-position: 50% 50%;
+    opacity: 0.7;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+}
