@@ -1,5 +1,5 @@
 export class Ente {
-    public telefono: number; 
+    public telefono: number
     public telefonoPublico: boolean; 
     public descripcion: string; 
     public enlace: string; 
@@ -9,6 +9,8 @@ export class Ente {
     public correoPublico: boolean; 
     public universitario: boolean; 
     public imagen: string; // TODO: image file
+    public cedulaFisica: number; 
+    public liderComunal: boolean; 
 
     constructor(
         telefono: number, 
@@ -20,7 +22,9 @@ export class Ente {
         correo: string, 
         correoPublico: boolean, 
         universitario: boolean, 
-        imagen: string
+        imagen: string, 
+        cedulaFisica: number,
+        liderComunal: boolean 
         )
         {
             this.telefono = telefono; 
@@ -33,6 +37,7 @@ export class Ente {
             this.correoPublico = correoPublico; 
             this.universitario = universitario; 
             this.imagen = imagen; 
-
+            this.cedulaFisica = cedulaFisica; 
+            this.liderComunal = liderComunal;
         }
 }
